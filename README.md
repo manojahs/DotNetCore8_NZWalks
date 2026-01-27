@@ -5,7 +5,13 @@
  <img width="839" alt="image" src="https://github.com/user-attachments/assets/a8f2e15e-f74f-4694-a9a7-2ce1afaf8d4f" />
 
 ```
+DBcontext
+----------
+Are classes helps for to connect between models and database
+
 Endpoints are routes that handle HTTP requests (e.g., GET /api/weather).
+
+
 
 Appsetting.json
 ----------------
