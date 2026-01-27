@@ -45,7 +45,9 @@ Typically contain a subset of the properties in the model
 for example transferring data over a network
 
 
+DTO vs Domain Models
 
+Client     <->    DTO   <->   API  <-> Domain Model   <->   Database
 
 
 ```
