@@ -19,6 +19,11 @@ Appsetting.json
   "MyConnectionString": "Server=.;Database=NZWalksDb;Trusted_Connection=true;TrustServerCertificate=true"}
 }
 
+Dependency Injection
+----------------------
+Its Design pattern to increase maintainability , testability
+Di container is responsible for creating and managing instances
+
 
 Run EF Core Migration
 --------------------
