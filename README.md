@@ -51,5 +51,11 @@ Client    <->    DTO   <->   API  <-> Domain Model   <->   Database
 
 Domain model will talk with database so Client will get only DTO object as a response ..
 
+Advantage of DTO's
+---------------------
+1) Seperation of Concerns
+2) Performance
+3) Secutiry
+4) Versioning
 
 ```
