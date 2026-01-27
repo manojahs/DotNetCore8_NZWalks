@@ -47,7 +47,9 @@ for example transferring data over a network
 
 DTO vs Domain Models
 
-Client     <->    DTO   <->   API  <-> Domain Model   <->   Database
+Client    <->    DTO   <->   API  <-> Domain Model   <->   Database
+
+Domain model will talk with database so Client will get only DTO object as a response ..
 
 
 ```
