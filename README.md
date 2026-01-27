@@ -38,4 +38,14 @@ Run EF Core Migration
 add-migration "name"
 update-database
 
+DTO(Data transfer Object)
+-------------------------------
+Used to transfer data between different layers
+Typically contain a subset of the properties in the model
+for example transferring data over a network
+
+
+
+
+
 ```
