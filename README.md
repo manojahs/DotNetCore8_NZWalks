@@ -59,6 +59,22 @@ Advantage of DTO's
 3) Secutiry
 4) Versioning
 
+Async Programming
+--------------------
+Traditional sync programming - program execution is blocked
+Poor performance (sync programming)
+Async/Await keyword
+More request
+
+Repositoty Pattern
+----------------------
+Its Design Pattern to seperate the data access layer from the application. DAL basically contains (EF Core + Repository).
+It provides interface without exposing implementation
+Helps create abstraction
+
+Basically its like Middleware the connction between controller and database
+instead of directly calling the dbcontext here we use repo pattern
+
 
 
 
