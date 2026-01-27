@@ -19,6 +19,14 @@ Appsetting.json
   "MyConnectionString": "Server=.;Database=NZWalksDb;Trusted_Connection=true;TrustServerCertificate=true"}
 }
 
+  "ConnectionStrings": {
+    "NZWalksConnectionString": "Server=UI-5CG4126LGL\\MSSQLSERVER01;Database=NZWalksDb;Trusted_Connection=True;TrustServerCertificate=True"
+
+  }
+
+For Migration of db main thing we need to check is installed Nuget packages and sdk should be same verison and also check the connectionstring in appsetting.json
+
+
 Dependency Injection
 ----------------------
 Its Design pattern to increase maintainability , testability
