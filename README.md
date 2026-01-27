@@ -43,6 +43,7 @@ DTO(Data transfer Object)
 Used to transfer data between different layers
 Typically contain a subset of the properties in the model
 for example transferring data over a network
+Here we can able to send only what are all property that is required as a response not the whole model property
 
 
 DTO vs Domain Models
@@ -57,5 +58,8 @@ Advantage of DTO's
 2) Performance
 3) Secutiry
 4) Versioning
+
+
+
 
 ```
