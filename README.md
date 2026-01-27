@@ -75,6 +75,13 @@ Helps create abstraction
 Basically its like Middleware the connction between controller and database
 instead of directly calling the dbcontext here we use repo pattern
 
+Benifits
+-----------
+Decoupling
+Consistency
+Performance
+Multiple data sources (Switching)
+
 
 
 
