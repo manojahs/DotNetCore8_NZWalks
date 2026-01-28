@@ -82,7 +82,9 @@ Consistency
 Performance
 Multiple data sources (Switching)
 
-
+To Implement the Repository pattern
+1) Need to create Interface
+2) To implement CRUD operation need to create one more concrete class and Repository class ex: ReqionRepository
 
 
 ```
