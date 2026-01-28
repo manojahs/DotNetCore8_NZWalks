@@ -86,5 +86,14 @@ To Implement the Repository pattern
 1) Need to create Interface
 2) To implement CRUD operation need to create one more concrete class and Repository class ex: ReqionRepository
 
+Auto Mapper
+----------------
+Its Object to Object Mapping
+Simplification
+Helps for map between DTOs and Domain Models and vice-versa (Source to Destination)
+Quite powerful apart from just simple object to object mapping
+
+
+
 
 ```
