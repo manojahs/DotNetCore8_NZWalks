@@ -93,7 +93,19 @@ Simplification
 Helps for map between DTOs and Domain Models and vice-versa (Source to Destination)
 Quite powerful apart from just simple object to object mapping
 
+Consider i wanted to convert from DTO to Model
+-------------------------------------------------------
 
+   public async  Task<IActionResult> createRecord([FromBody] RegionDTO region)
+   {
+       //convert DTO to Model
+      var  regionDomainModel =_mapper.Map<Region>(region);
+      regionDomainModel =  await _regionRepository.createRecord(regionDomainModel);
+
+       //Convert Model to DTO
+      var regionDTO = _mapper.Map<RegionDTO>(regionDomainModel);
+      return CreatedAtAction(nameof(getAll), null, regionDTO);
+   }
 
 
 ```
